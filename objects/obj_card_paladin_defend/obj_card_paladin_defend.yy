@@ -32,7 +32,7 @@
   ],
   "parent": {
     "name": "paladin",
-    "path": "folders/Objects/cards/paladin.yy",
+    "path": "folders/Objects/cardplay/cards/paladin.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_card_paladin_defend",

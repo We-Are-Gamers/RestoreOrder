@@ -33,7 +33,7 @@
   ],
   "parent": {
     "name": "cleric",
-    "path": "folders/Objects/cards/cleric.yy",
+    "path": "folders/Objects/cardplay/cards/cleric.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_card_cleric_magic_defend",

@@ -33,7 +33,7 @@
   ],
   "parent": {
     "name": "barbarian",
-    "path": "folders/Objects/cards/barbarian.yy",
+    "path": "folders/Objects/cardplay/cards/barbarian.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_card_barbarian_debuff",

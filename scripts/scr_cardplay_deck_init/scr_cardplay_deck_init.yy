@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "cards",
-    "path": "folders/Scripts/objects/cardplay/cards.yy",
+    "name": "cardplay",
+    "path": "folders/Scripts/objects/cardplay.yy",
   },
   "resourceVersion": "1.0",
-  "name": "empty_card_count",
+  "name": "scr_cardplay_deck_init",
   "tags": [],
   "resourceType": "GMScript",
 }

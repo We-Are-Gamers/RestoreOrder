@@ -34,7 +34,7 @@
   ],
   "parent": {
     "name": "witch",
-    "path": "folders/Objects/cards/witch.yy",
+    "path": "folders/Objects/cardplay/cards/witch.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_card_witch_magic_attack",

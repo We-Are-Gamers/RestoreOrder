@@ -45,7 +45,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "cards",
-    "path": "folders/Objects/cards.yy",
+    "path": "folders/Objects/cardplay/cards.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_card",

@@ -13,5 +13,5 @@ switch(position) {
 		break;
 }
 
-deck_control = instance_find(obj_deck_control, 0);
-turn_control = instance_find(obj_turn_control, 0);
+deck = instance_create_layer(0,0,"Instances",obj_cardplay_deck);
+scr_cardplay_deck_init(deck, character_type);
