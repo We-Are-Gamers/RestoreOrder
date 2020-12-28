@@ -18,7 +18,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,"parent":{"name":"obj_character","path":"objects/obj_character/obj_character.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"parent":{"name":"obj_character","path":"objects/obj_character/obj_character.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_character","path":"objects/obj_character/obj_character.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":10,"eventType":6,"collisionObjectId":null,"parent":{"name":"obj_character","path":"objects/obj_character/obj_character.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":11,"eventType":6,"collisionObjectId":null,"parent":{"name":"obj_character","path":"objects/obj_character/obj_character.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},

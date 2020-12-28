@@ -1,4 +1,4 @@
 if(targetable && global.mana > 0) {
-	image_xscale = 1.1;
-	image_yscale = 1.1;
+	image_xscale = big_scale;
+	image_yscale = big_scale;
 }

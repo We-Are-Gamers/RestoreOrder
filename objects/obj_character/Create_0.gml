@@ -15,3 +15,9 @@ switch(position) {
 
 deck_control = instance_find(obj_deck_control, 0);
 turn_control = instance_find(obj_turn_control, 0);
+
+character_card = instance_create_layer(x,y,"Instances", obj_character_card);
+
+with(character_card) {
+	sprite_index = other.sprite_index;
+}
