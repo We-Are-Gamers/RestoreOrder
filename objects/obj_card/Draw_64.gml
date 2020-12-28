@@ -6,4 +6,5 @@ if(selected) {
 	draw_text(100, 100, "Mag Def: " + string(magic_defense));
 	draw_text(100, 120, "Healing: " + string(healing));
 	draw_text(100, 140, "Buff Atk: " + string(buff_atk));
+	draw_text(100, 160, "Debuff Atk: " + string(debuff_atk));
 }
