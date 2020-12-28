@@ -8,7 +8,7 @@ if(room == rm_game) {
 	instance_create_layer(521, 356, "Instances", obj_paladin);
 	instance_create_layer(713, 356, "Instances", obj_barbarian);
 	instance_create_layer(1050, 292, "Instances", obj_big_bad);
-	
+
 	with(deck_control) {
 		event_user(0);
 	}

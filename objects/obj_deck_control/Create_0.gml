@@ -7,7 +7,6 @@ disc_cards_barbarian = ds_list_create();
 disc_cards_paladin = ds_list_create();
 disc_cards_witch = ds_list_create();
 disc_cards_cleric = ds_list_create();
-
 play_cards_barbarian = [false, false]
 play_cards_paladin = [false, false];
 play_cards_witch = [false, false];
