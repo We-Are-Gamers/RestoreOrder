@@ -1,5 +1,5 @@
 function choose_encounter(level){
-	var level_map = ds_map_find_value(global.cfg_encounters, level);
+	var level_map = ds_map_find_value(global.cfg_encounters_map, level);
 	
 	do {
 		var random_list = choose(

@@ -34,7 +34,7 @@ add_level_lists(lvl2, [lvl2_small_group, lvl2_large_group, lvl2_champion, lvl2_c
 add_level_lists(lvl3, [lvl3_small_group, lvl3_large_group, lvl3_champion, lvl3_commander]);
 add_level_lists(lvl4, [lvl4_small_group, lvl4_large_group, lvl4_champion, lvl4_commander]);
 
-add_level_maps(global.cfg_encounters, [lvl1, lvl2, lvl3, lvl4]);
+add_level_maps(global.cfg_encounters_map, [lvl1, lvl2, lvl3, lvl4]);
 
 function add_level_lists(level_map, level_lists) {
 	for(var i = 1; i <= array_length(level_lists); i++) {
@@ -48,4 +48,4 @@ function add_level_maps(encounter_map, level_maps) {
 	}
 }
 
-show_debug_message(string(ds_map_find_value(global.cfg_encounters, 1)));
+show_debug_message(string(ds_map_find_value(global.cfg_encounters_map, 1)));
