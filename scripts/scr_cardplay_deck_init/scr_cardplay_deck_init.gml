@@ -4,6 +4,7 @@ function scr_cardplay_deck_init(deck, character_type){
 	var starting_deck = ds_map_find_value(global.cfg_character_starting_decks, character_type);
 	for(i = 0; i < array_length(starting_deck); ++i){
 		var card = instance_create_layer(deck.x,deck.y,"Instances", starting_deck[i]);
+		scr_card_hide(card);
 		ds_list_add(deck.draw_pile.pile, card);
 	}
 	scr_cardplay_deck_shuffle(deck);

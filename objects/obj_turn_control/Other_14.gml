@@ -1,5 +1,14 @@
 /// @description enemy begin turn
 
+
+ds_queue_clear(enemy_turn_queue);
+for(i = 0; i < instance_number(obj_enemy); ++i){
+	ds_queue_enqueue(enemy_turn_queue, instance_find(obj_enemy, i));
+}
+alarm[1] = 60;
+
+
+/*
 var num_enemies = instance_number(obj_enemy);
 var i = 0;
 
