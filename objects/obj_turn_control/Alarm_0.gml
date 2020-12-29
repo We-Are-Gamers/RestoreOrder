@@ -1,3 +1,3 @@
 /// @description end enemy turn
 
-turn_end = true;
+//turn_end = true;

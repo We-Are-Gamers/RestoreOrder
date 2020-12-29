@@ -5,7 +5,7 @@ global.cfg_character_starting_decks = ds_map_create()
 
 //cleric starting deck
 ds_map_add(
-	cfg_character_starting_decks,
+	global.cfg_character_starting_decks,
 	enum_character_types.cleric,
 	[
 		obj_card_cleric_magic_defend,
@@ -17,7 +17,7 @@ ds_map_add(
 
 //witch starting deck
 ds_map_add(
-	cfg_character_starting_decks,
+	global.cfg_character_starting_decks,
 	enum_character_types.witch,
 	[
 		obj_card_witch_magic_attack,
@@ -29,7 +29,7 @@ ds_map_add(
 
 //paladin starting deck
 ds_map_add(
-	cfg_character_starting_decks,
+	global.cfg_character_starting_decks,
 	enum_character_types.paladin,
 	[
 		obj_card_paladin_defend,
@@ -40,7 +40,7 @@ ds_map_add(
 )
 //barbarian starting deck
 ds_map_add(
-	cfg_character_starting_decks,
+	global.cfg_character_starting_decks,
 	enum_character_types.barbarian,
 	[
 		obj_card_barbarian_attack,

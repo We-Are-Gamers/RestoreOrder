@@ -1,4 +1,8 @@
-if(global.mana <= 0 && turn_end) {
+if(keyboard_check_pressed(vk_space)) {
+	turn_end = true;
+}
+
+if(global.mana <= 0 || turn_end) {
 	if(turn == "Player") {
 		turn = "Enemy";
 		

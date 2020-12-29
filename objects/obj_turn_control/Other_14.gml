@@ -1,6 +1,9 @@
 /// @description enemy begin turn
 
-for(var i = 0; i < instance_number(obj_enemy); i++) {
+var num_enemies = instance_number(obj_enemy);
+var i = 0;
+
+do {
 	next_enemy_turn = false;
 	var enemy = instance_find(obj_enemy, i);
 	enemy.targetable = false;
@@ -11,4 +14,9 @@ for(var i = 0; i < instance_number(obj_enemy); i++) {
 	with(enemy) {
 		alarm[0] = 60;
 	}
-}
+	
+	i++;
+	
+} until (i == num_enemies - 1);
+
+turn_end = true;
