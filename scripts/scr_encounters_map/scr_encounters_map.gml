@@ -1,4 +1,4 @@
-global.cfg_encounters = ds_map_create();
+global.cfg_encounters_map = ds_map_create();
 
 lvl1 = ds_map_create();
 lvl2 = ds_map_create();

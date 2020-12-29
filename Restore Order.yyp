@@ -20,7 +20,7 @@
     {"id":{"name":"rm_lvl1_champ_1","path":"rooms/rm_lvl1_champ_1/rm_lvl1_champ_1.yy",},"order":0,},
     {"id":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},"order":3,},
     {"id":{"name":"obj_card_witch_magic_debuff","path":"objects/obj_card_witch_magic_debuff/obj_card_witch_magic_debuff.yy",},"order":1,},
-    {"id":{"name":"scr_encounters_create_map","path":"scripts/scr_encounters_create_map/scr_encounters_create_map.yy",},"order":0,},
+    {"id":{"name":"scr_encounters_map","path":"scripts/scr_encounters_map/scr_encounters_map.yy",},"order":0,},
     {"id":{"name":"spr_card_paladin_buff","path":"sprites/spr_card_paladin_buff/spr_card_paladin_buff.yy",},"order":0,},
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},"order":0,},
     {"id":{"name":"spr_card_cleric_magic_heal","path":"sprites/spr_card_cleric_magic_heal/spr_card_cleric_magic_heal.yy",},"order":1,},
