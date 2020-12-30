@@ -1,4 +1,4 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function populate_lvl4_lists(small_group, large_group, champion, commander){
+function scr_encounters_lvl2_pop_lists(small_group, large_group, champion, commander){
 }

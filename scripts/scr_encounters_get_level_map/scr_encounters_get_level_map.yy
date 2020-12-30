@@ -6,7 +6,7 @@
     "path": "folders/Scripts/encounters.yy",
   },
   "resourceVersion": "1.0",
-  "name": "scr_encounters_choose_encounter",
+  "name": "scr_encounters_get_level_map",
   "tags": [],
   "resourceType": "GMScript",
 }

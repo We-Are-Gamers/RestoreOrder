@@ -30,9 +30,11 @@ with(target) {
 		
 		if(other.selected_card.is_magic && other.selected_card.debuff_atk > 0) {
 			mag_atk_mod *= other.selected_card.debuff_atk;
+			show_debug_message(name + " magic attack debuffed");
 		}
 		else if(!other.selected_card.is_magic && other.selected_card.debuff_atk > 0) {
 			phys_atk_mod *= other.selected_card.debuff_atk;
+			show_debug_message(name + " physical attack debuffed");
 		}
 				
 		physical_defense -= other.selected_card.physical_atk * other.selected_card.character.physical_atk_mod * physical_modifier;
@@ -41,9 +43,6 @@ with(target) {
 			show_debug_message(name + " hit for " + string(physical_defense * -1) + " damage");
 			physical_defense = 0;
 		}
-		else {
-			physical_defense = round(physical_defense);
-		}
 		
 		magic_defense -= other.selected_card.magic_atk * other.selected_card.character.magic_atk_mod * magic_modifier;
 		if(magic_defense < 0) {
@@ -51,11 +50,6 @@ with(target) {
 			show_debug_message(name + " hit for " + string(magic_defense * -1) + " damage");
 			magic_defense = 0;
 		}
-		else {
-			magic_defense = round(magic_defense);
-		}
-		
-		cur_health = round(cur_health);
 	}
 }
 

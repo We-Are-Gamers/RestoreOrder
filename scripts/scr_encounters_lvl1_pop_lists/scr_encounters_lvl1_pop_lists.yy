@@ -6,7 +6,7 @@
     "path": "folders/Scripts/configuration/encounters.yy",
   },
   "resourceVersion": "1.0",
-  "name": "scr_encounters_lvl4_lists",
+  "name": "scr_encounters_lvl1_pop_lists",
   "tags": [],
   "resourceType": "GMScript",
 }

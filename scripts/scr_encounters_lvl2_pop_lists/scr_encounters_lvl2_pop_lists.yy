@@ -3,10 +3,10 @@
   "isCompatibility": false,
   "parent": {
     "name": "encounters",
-    "path": "folders/Scripts/encounters.yy",
+    "path": "folders/Scripts/configuration/encounters.yy",
   },
   "resourceVersion": "1.0",
-  "name": "scr_encounters_choose_encounter",
+  "name": "scr_encounters_lvl2_pop_lists",
   "tags": [],
   "resourceType": "GMScript",
 }

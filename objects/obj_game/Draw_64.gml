@@ -25,6 +25,7 @@ switch(room) {
 		break;
 	default:
 		draw_text(20, 20, "Mana: " + string(global.mana) + "/3");
+		draw_text(20, 40, "Blood: " + string(global.blood));
 		
 		var c = c_white;
 		draw_rectangle_color(48, 494, 226, 706, c, c, c, c, true);

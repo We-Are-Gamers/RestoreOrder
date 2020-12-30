@@ -1,17 +1,15 @@
 draw_set_halign(fa_center);
 
-draw_text(1050, 500, "Phys Atk: " + string(physical_attack));
-draw_text(1150, 500, "Mod: " + string(phys_atk_mod));
-draw_text(1050, 520, "Mag Atk: " + string(magic_attack));
-draw_text(1150, 520, "Mod: " + string(mag_atk_mod));
-draw_text(1050, 540, "Phys Def: " + string(physical_defense));
-draw_text(1050, 560, "Mag Def: " + string(magic_defense));
+draw_text(x - 200, y - 40, name);
+draw_text(x - 200, y - 20, string(cur_health) + "/" + string(max_health));
 
-draw_text(1050, 440, name);
-draw_text(1050, 460, string(cur_health) + "/" + string(max_health));
+draw_text(x - 200, y, "Phys Atk: " + string(physical_attack) + " * " + string(phys_atk_mod));
+draw_text(x - 200, y + 20, "Mag Atk: " + string(magic_attack) + " * " + string(mag_atk_mod));
+draw_text(x - 200, y + 40, "Phys Def: " + string(physical_defense));
+draw_text(x - 200, y + 60, "Mag Def: " + string(magic_defense));
 
 if(is_magic) {
-	draw_text(1050, 600, "Magic Enemy");
+	draw_text(x - 200, y + 80, "Magic Enemy");
 }
 
 draw_set_halign(fa_left);

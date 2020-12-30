@@ -7,9 +7,11 @@ function scr_enemy_run_turn(enemy){
 		switch(move) {
 			case "mag_def":
 				magic_defense += 10;
+				show_debug_message(name + " raised magic defense by 10");
 				break;
 			case "phys_def":
 				physical_defense += 10;
+				show_debug_message(name + " raised physical defense by 10");
 				break;
 			case "mag_atk":
 				var magic_characters = ds_list_create();
@@ -28,11 +30,7 @@ function scr_enemy_run_turn(enemy){
 						if(magic_defense < 0) {
 							cur_health += magic_defense;
 							show_debug_message(name + " hit for " + string(magic_defense * -1) + " damage");
-							cur_health = round(cur_health);
 							magic_defense = 0;
-						}
-						else {
-							magic_defense = round(magic_defense);
 						}
 					}
 				}
@@ -55,11 +53,7 @@ function scr_enemy_run_turn(enemy){
 						if(physical_defense < 0) {
 							cur_health += physical_defense;
 							show_debug_message(name + " hit for " + string(physical_defense * -1) + " damage");
-							cur_health = round(cur_health);
 							physical_defense = 0;
-						}
-						else {
-							physical_defense = round(physical_defense);
 						}
 					}
 				}

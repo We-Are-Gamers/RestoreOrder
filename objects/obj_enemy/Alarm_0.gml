@@ -1,5 +1,4 @@
 /// @description enemy turn
-
 var move = choose("mag_def", "phys_def", "mag_atk", "mag_atk", "phys_atk", "phys_atk");
 
 switch(move) {
@@ -63,9 +62,4 @@ switch(move) {
 		}
 		
 		break;
-}
-
-with(turn_control) {
-	next_enemy_turn = true;
-	alarm[0] = 60;
 }

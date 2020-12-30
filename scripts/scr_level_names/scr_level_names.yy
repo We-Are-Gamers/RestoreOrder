@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "encounters",
-    "path": "folders/Scripts/encounters.yy",
+    "name": "enums",
+    "path": "folders/Scripts/enums.yy",
   },
   "resourceVersion": "1.0",
-  "name": "scr_encounters_choose_encounter",
+  "name": "scr_level_names",
   "tags": [],
   "resourceType": "GMScript",
 }

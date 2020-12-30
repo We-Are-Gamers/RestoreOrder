@@ -8,5 +8,5 @@ if(ds_queue_size(enemy_turn_queue) == 0){
 //do enemy turn
 	var enemy = ds_queue_dequeue(enemy_turn_queue);
 	scr_enemy_run_turn(enemy);
-	alarm[1] = 1;
+	alarm[1] = 60;
 }

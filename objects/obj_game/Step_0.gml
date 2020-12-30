@@ -1,7 +1,8 @@
 switch(room) {
 	case rm_start:
 		if(keyboard_check_pressed(vk_enter)) {
-			choose_encounter(1);
+			scr_encounters_get_level_map(enum_level_names.electric);
+			scr_encounters_choose_encounter(enum_level_names.electric);
 			game_start = true;
 		}
 		break;
@@ -16,7 +17,7 @@ switch(room) {
 			room_goto(rm_win);
 		}
 		if(keyboard_check_pressed(vk_enter)) {
-			choose_encounter(1);
+			scr_encounters_choose_encounter(enum_level_names.electric);
 		}
 		
 		if(global.characters <= 0) {
