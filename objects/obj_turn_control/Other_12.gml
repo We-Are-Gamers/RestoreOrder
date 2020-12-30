@@ -4,10 +4,10 @@ with(target) {
 	if(object_get_name(object_get_parent(object_index)) == "obj_character") {
 		if(other.selected_card.buff_atk > 0) {
 			if(is_magic) {
-				magic_atk_mod *= other.selected_card.buff_atk;
+				magic_atk_mult *= other.selected_card.buff_atk;
 			}
 			else {
-				physical_atk_mod *= other.selected_card.buff_atk;
+				physical_atk_mult *= other.selected_card.buff_atk;
 			}
 		}
 		
@@ -19,32 +19,32 @@ with(target) {
 		}
 	}
 	else if(object_get_name(object_get_parent(object_index)) == "obj_enemy") {
-		var physical_modifier = 1;
-		var magic_modifier = 1;
+		var physical_multiplier  = 1;
+		var magic_multiplier  = 1;
 		if(is_magic) {
-			physical_modifier = 0.25;
+			physical_multiplier  = 0.25;
 		}
 		else {
-			magic_modifier = 0.25;
+			magic_multiplier  = 0.25;
 		}
 		
 		if(other.selected_card.is_magic && other.selected_card.debuff_atk > 0) {
-			mag_atk_mod *= other.selected_card.debuff_atk;
+			mag_atk_mult *= other.selected_card.debuff_atk;
 			show_debug_message(name + " magic attack debuffed");
 		}
 		else if(!other.selected_card.is_magic && other.selected_card.debuff_atk > 0) {
-			phys_atk_mod *= other.selected_card.debuff_atk;
+			phys_atk_mult *= other.selected_card.debuff_atk;
 			show_debug_message(name + " physical attack debuffed");
 		}
 				
-		physical_defense -= other.selected_card.physical_atk * other.selected_card.character.physical_atk_mod * physical_modifier;
+		physical_defense -= other.selected_card.physical_atk * other.selected_card.character.physical_atk_mult * physical_multiplier ;
 		if(physical_defense < 0) {
 			cur_health += physical_defense;
 			show_debug_message(name + " hit for " + string(physical_defense * -1) + " damage");
 			physical_defense = 0;
 		}
 		
-		magic_defense -= other.selected_card.magic_atk * other.selected_card.character.magic_atk_mod * magic_modifier;
+		magic_defense -= other.selected_card.magic_atk * other.selected_card.character.magic_atk_mult * magic_multiplier ;
 		if(magic_defense < 0) {
 			cur_health += magic_defense;
 			show_debug_message(name + " hit for " + string(magic_defense * -1) + " damage");

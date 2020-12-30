@@ -1,7 +1,7 @@
 draw_set_halign(fa_center);
 
-draw_text(gui_x, 200, "Phys Atk Mod: " + string(physical_atk_mod));
-draw_text(gui_x, 220, "Mag Atk Mod: " + string(magic_atk_mod));
+draw_text(gui_x, 200, "Phys Atk Mult: " + string(physical_atk_mult));
+draw_text(gui_x, 220, "Mag Atk Mult: " + string(magic_atk_mult));
 draw_text(gui_x, 240, "Phys Def: " + string(physical_defense));
 draw_text(gui_x, 260, "Mag Def: " + string(magic_defense));
 

@@ -21,7 +21,7 @@ switch(move) {
 		if(!ds_list_empty(magic_characters)) {
 			var target_character = ds_list_find_value(magic_characters, irandom_range(0, ds_list_size(magic_characters) - 1));
 			with(target_character) {
-				magic_defense -= other.magic_attack * other.mag_atk_mod;
+				magic_defense -= other.magic_attack * other.mag_atk_mult;
 				if(magic_defense < 0) {
 					cur_health += magic_defense;
 					show_debug_message(name + " hit for " + string(magic_defense * -1) + " damage");
@@ -48,7 +48,7 @@ switch(move) {
 		if(!ds_list_empty(phys_characters)) {
 			var target_character = ds_list_find_value(phys_characters, irandom_range(0, ds_list_size(phys_characters) - 1));
 			with(target_character) {
-				physical_defense -= other.physical_attack * other.phys_atk_mod;
+				physical_defense -= other.physical_attack * other.phys_atk_mult;
 				if(physical_defense < 0) {
 					cur_health += physical_defense;
 					show_debug_message(name + " hit for " + string(physical_defense * -1) + " damage");

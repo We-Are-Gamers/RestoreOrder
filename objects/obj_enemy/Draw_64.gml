@@ -3,8 +3,8 @@ draw_set_halign(fa_center);
 draw_text(x - 200, y - 40, name);
 draw_text(x - 200, y - 20, string(cur_health) + "/" + string(max_health));
 
-draw_text(x - 200, y, "Phys Atk: " + string(physical_attack) + " * " + string(phys_atk_mod));
-draw_text(x - 200, y + 20, "Mag Atk: " + string(magic_attack) + " * " + string(mag_atk_mod));
+draw_text(x - 200, y, "Phys Atk: " + string(physical_attack) + " * " + string(phys_atk_mult));
+draw_text(x - 200, y + 20, "Mag Atk: " + string(magic_attack) + " * " + string(mag_atk_mult));
 draw_text(x - 200, y + 40, "Phys Def: " + string(physical_defense));
 draw_text(x - 200, y + 60, "Mag Def: " + string(magic_defense));
 
