@@ -1,0 +1,1 @@
+scr_subscribe_to_event(enum_published_events.test, test_subscribed_script, id);
