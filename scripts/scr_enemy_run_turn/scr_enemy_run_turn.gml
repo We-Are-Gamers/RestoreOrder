@@ -2,6 +2,9 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function scr_enemy_run_turn(enemy){
 	with(enemy){
+		physical_defense = 0;
+		magic_defense = 0;
+		
 		var move = choose("mag_def", "phys_def", "mag_atk", "mag_atk", "phys_atk", "phys_atk");
 
 		switch(move) {
