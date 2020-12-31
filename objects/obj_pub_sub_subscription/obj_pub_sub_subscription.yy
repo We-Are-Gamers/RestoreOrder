@@ -19,16 +19,16 @@
   "physicsShapePoints": [],
   "eventList": [],
   "properties": [
-    {"varType":0,"value":"noone","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"caller_id","tags":[],"resourceType":"GMObjectProperty",},
-    {"varType":1,"value":"0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"number_to_multiply","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":4,"value":"noone","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"callback_script_id","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":4,"value":"noone","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"subscriber_instance_id","tags":[],"resourceType":"GMObjectProperty",},
   ],
   "overriddenProperties": [],
   "parent": {
-    "name": "test_pub_sub",
-    "path": "folders/Objects/test_pub_sub.yy",
+    "name": "pub_sub",
+    "path": "folders/Objects/pub_sub.yy",
   },
   "resourceVersion": "1.0",
-  "name": "test_dispatch_object",
+  "name": "obj_pub_sub_subscription",
   "tags": [],
   "resourceType": "GMObject",
 }

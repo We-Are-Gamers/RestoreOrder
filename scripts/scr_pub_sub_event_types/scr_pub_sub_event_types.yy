@@ -6,7 +6,7 @@
     "path": "folders/Scripts/enums.yy",
   },
   "resourceVersion": "1.0",
-  "name": "scr_published_events",
+  "name": "scr_pub_sub_event_types",
   "tags": [],
   "resourceType": "GMScript",
 }
