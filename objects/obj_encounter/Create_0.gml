@@ -1,0 +1,2 @@
+scr_subscribe_to_event(enum_pub_sub_event_types.enemies_spawned, scr_encounter_enemy_spawned, self);
+scr_subscribe_to_event(enum_pub_sub_event_types.enemies_killed, scr_encounter_enemy_killed, self);
