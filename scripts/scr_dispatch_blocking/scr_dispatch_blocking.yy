@@ -6,7 +6,7 @@
     "path": "folders/Scripts/pub_sub.yy",
   },
   "resourceVersion": "1.0",
-  "name": "scr_dispatch_event",
+  "name": "scr_dispatch_blocking",
   "tags": [],
   "resourceType": "GMScript",
 }

@@ -6,7 +6,7 @@
     "path": "folders/Scripts/pub_sub.yy",
   },
   "resourceVersion": "1.0",
-  "name": "scr_dispatch",
+  "name": "scr_dispatch_helper",
   "tags": [],
   "resourceType": "GMScript",
 }

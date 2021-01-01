@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_witch",
-    "path": "sprites/spr_witch/spr_witch.yy",
+    "name": "spr_cleric",
+    "path": "sprites/spr_cleric/spr_cleric.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,18 +21,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":4,"eventType":6,"collisionObjectId":null,"parent":{"name":"test_dispatcher","path":"objects/test_dispatcher/test_dispatcher.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":4,"eventType":6,"collisionObjectId":null,"parent":{"name":"test_async_dispatcher","path":"objects/test_async_dispatcher/test_async_dispatcher.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
-  "properties": [
-    {"varType":1,"value":"5","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"ex_variable","tags":[],"resourceType":"GMObjectProperty",},
-  ],
+  "properties": [],
   "overriddenProperties": [],
   "parent": {
     "name": "test_pub_sub",
     "path": "folders/Objects/test_pub_sub.yy",
   },
   "resourceVersion": "1.0",
-  "name": "test_dispatcher",
+  "name": "test_async_dispatcher",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -4,8 +4,8 @@ if(cur_health <= 0) {
 	instance_create_layer(640, 150, "Instances", obj_enemy_slime);
 	instance_create_layer(1280, 150, "Instances", obj_enemy_slime);
 	
-	var enemies_spawned_instance = instance_create_layer(x, y, "Instances", obj_pub_sub_event_data_enemies_spawned);
-	var enemies_killed_instance = instance_create_layer(x, y, "Instances", obj_pub_sub_event_data_enemies_killed);
+	var enemies_spawned_instance = instance_create_layer(x, y, "Instances", obj_event_data_enemies_spawned);
+	var enemies_killed_instance = instance_create_layer(x, y, "Instances", obj_event_data_enemies_killed);
 	
 	enemies_spawned_instance.dispatcher_instance_id = self;
 	enemies_spawned_instance.enemies_spawned = 2;

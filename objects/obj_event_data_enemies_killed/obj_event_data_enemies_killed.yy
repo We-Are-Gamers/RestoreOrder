@@ -5,8 +5,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_pub_sub_event_data",
-    "path": "objects/obj_pub_sub_event_data/obj_pub_sub_event_data.yy",
+    "name": "obj_event_data",
+    "path": "objects/obj_event_data/obj_event_data.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -25,14 +25,14 @@
     {"varType":1,"value":"0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"enemies_killed","tags":[],"resourceType":"GMObjectProperty",},
   ],
   "overriddenProperties": [
-    {"propertyId":{"name":"pub_sub_event_type","path":"objects/obj_pub_sub_event_data/obj_pub_sub_event_data.yy",},"objectId":{"name":"obj_pub_sub_event_data","path":"objects/obj_pub_sub_event_data/obj_pub_sub_event_data.yy",},"value":"enum_pub_sub_event_types.enemies_killed","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"pub_sub_event_type","path":"objects/obj_event_data/obj_event_data.yy",},"objectId":{"name":"obj_event_data","path":"objects/obj_event_data/obj_event_data.yy",},"value":"enum_pub_sub_event_types.enemies_killed","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "event_data",
     "path": "folders/Objects/pub_sub/event_data.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_pub_sub_event_data_enemies_killed",
+  "name": "obj_event_data_enemies_killed",
   "tags": [],
   "resourceType": "GMObject",
 }

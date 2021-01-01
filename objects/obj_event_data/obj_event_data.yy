@@ -28,7 +28,7 @@
     "path": "folders/Objects/pub_sub/event_data.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_pub_sub_event_data",
+  "name": "obj_event_data",
   "tags": [],
   "resourceType": "GMObject",
 }
