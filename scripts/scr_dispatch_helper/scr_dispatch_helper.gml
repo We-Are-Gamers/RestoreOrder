@@ -12,7 +12,7 @@ function scr_dispatch_helper(event_data_id, is_blocking){
 		var subscription = ds_list_find_value(list, i);
 		if(is_blocking) {
 			// Block while doing the dispatch
-			script_execute(subscription.callback_script_id, subscription.subscriber_instance_id, event_data_id);
+			script_execute(subscription.callback_script_id, subscription.subscriber_id, event_data_id);
 		} else {
 			// Add the arguments to the dispatch queue for this subscription
 			ds_queue_enqueue(subscription.async_dispatch_queue, event_data_id);
