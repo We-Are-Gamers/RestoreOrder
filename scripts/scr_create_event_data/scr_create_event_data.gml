@@ -5,6 +5,7 @@
 // }
 function scr_create_event_data(your_event_data_obj, dispatcher_id){
 	var event_data_id = instance_create_layer(0, 0, "Instances", your_event_data_obj);
+	event_data_id.dispatcher_id = dispatcher_id;
 	// We expect dispatch to be called on this event data, which will destroy it.
 	return event_data_id;
 }

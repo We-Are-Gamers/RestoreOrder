@@ -1,0 +1,2 @@
+scr_subscribe_to_event(enum_pub_sub_event_types.targets_activate, scr_targetable_targets_activate, self);
+scr_subscribe_to_event(enum_pub_sub_event_types.targets_deactivate, scr_targetable_targets_deactivate, self);

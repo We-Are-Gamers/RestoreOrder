@@ -4,16 +4,16 @@ var half_height = sprite_height / 2;
 draw_set_halign(fa_center);
 
 draw_text(x, y + half_height + 20, name);
-draw_text(x, y + half_height + 40, string(cur_health) + "/" + string(max_health));
+draw_text(x, y + half_height + 40, string(_health) + "/" + string(_health_base));
 
-if(is_magic) {
+if(being_type == enum_being_types.magic) {
 	draw_text(x - 200, y + half_height + 60, "Magic Enemy");
 }
 
 draw_set_halign(fa_left);
 
-draw_text(x - half_width - 120, y - 40, "Phys Atk: " + string(physical_attack) + " * " + string(phys_atk_mult));
-draw_text(x - half_width - 120, y - 20, "Mag Atk: " + string(magic_attack) + " * " + string(mag_atk_mult));
+draw_text(x - half_width - 120, y - 40, "Phys Atk: " + string(physical_atk) + " * " + string(physical_atk_mult));
+draw_text(x - half_width - 120, y - 20, "Mag Atk: " + string(magic_atk) + " * " + string(magic_atk_mult));
 draw_text(x - half_width - 120, y + 20, "Phys Def: " + string(physical_defense));
 draw_text(x - half_width - 120, y + 40, "Mag Def: " + string(magic_defense));
 

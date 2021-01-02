@@ -4,7 +4,7 @@ var half_height = sprite_height / 2;
 draw_set_halign(fa_center);
 
 draw_text(x, y + half_height + 20, name);
-draw_text(x, y + half_height + 40, string(cur_health) + "/" + string(max_health));
+draw_text(x, y + half_height + 40, string(_health) + "/" + string(_health_base));
 
 draw_set_halign(fa_left);
 

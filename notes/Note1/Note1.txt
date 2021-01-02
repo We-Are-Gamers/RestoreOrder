@@ -1,0 +1,10 @@
+enum {
+	encounter_begin
+}
+
+scr_subscribe_to_event(enum_pub_sub_event_types.encounter_begin, scr_turn_control_encounter_begin, self);
+
+
+function scr_turn_control_encounter_begin(turn_control_id, event_data_id){
+
+}

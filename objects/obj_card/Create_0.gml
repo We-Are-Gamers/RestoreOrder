@@ -1,5 +1,6 @@
-deck_control = instance_find(obj_deck_control, 0);
-turn_control = instance_find(obj_turn_control, 0);
-targetable = true;
+scr_subscribe_to_event(enum_pub_sub_event_types.actions_activate, scr_card_actions_activate, self);
+scr_subscribe_to_event(enum_pub_sub_event_types.actions_deactivate, scr_card_actions_deactivate, self);
+scr_subscribe_to_event(enum_pub_sub_event_types.target_selected, scr_card_target_selected, self);
+scr_subscribe_to_event(enum_pub_sub_event_types.target_deselected, scr_card_target_deselected, self);
 
-big_scale = 1.1;
+collected_targets = ds_list_create();

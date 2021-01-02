@@ -10,5 +10,8 @@ function scr_cardplay_deck_draw_card(deck){
 	var draw_pile_size = ds_list_size(deck.draw_pile.pile)-1;
 	var card = ds_list_find_value(deck.draw_pile.pile, draw_pile_size);
 	ds_list_delete(deck.draw_pile.pile, draw_pile_size);
+	with(scr_create_event_data(obj_event_data_card_draw, deck)) {
+		scr_dispatch_blocking(self);
+	}
 	return card;
 }

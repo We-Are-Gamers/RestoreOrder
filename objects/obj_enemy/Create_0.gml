@@ -1,1 +1,0 @@
-turn_control = instance_find(obj_turn_control, 0);

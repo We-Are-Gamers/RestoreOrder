@@ -1,65 +1,8 @@
 /// @description enemy turn
-var move = choose("mag_def", "phys_def", "mag_atk", "mag_atk", "phys_atk", "phys_atk");
-
-switch(move) {
-	case "mag_def":
-		magic_defense += 10;
-		break;
-	case "phys_def":
-		physical_defense += 10;
-		break;
-	case "mag_atk":
-		var magic_characters = ds_list_create();
-		
-		for(var i = 0; i < instance_number(obj_character); i++) {
-			var character = instance_find(obj_character, i);
-			if(character.is_magic) {
-				ds_list_add(magic_characters, character);
-			}
-		}
-		
-		if(!ds_list_empty(magic_characters)) {
-			var target_character = ds_list_find_value(magic_characters, irandom_range(0, ds_list_size(magic_characters) - 1));
-			with(target_character) {
-				magic_defense -= other.magic_attack * other.mag_atk_mult;
-				if(magic_defense < 0) {
-					cur_health += magic_defense;
-					show_debug_message(name + " hit for " + string(magic_defense * -1) + " damage");
-					cur_health = round(cur_health);
-					magic_defense = 0;
-				}
-				else {
-					magic_defense = round(magic_defense);
-				}
-			}
-		}
-		
-		break;
-	case "phys_atk":
-		var phys_characters = ds_list_create();
-		
-		for(var i = 0; i < instance_number(obj_character); i++) {
-			var character = instance_find(obj_character, i);
-			if(!character.is_magic) {
-				ds_list_add(phys_characters, character);
-			}
-		}
-		
-		if(!ds_list_empty(phys_characters)) {
-			var target_character = ds_list_find_value(phys_characters, irandom_range(0, ds_list_size(phys_characters) - 1));
-			with(target_character) {
-				physical_defense -= other.physical_attack * other.phys_atk_mult;
-				if(physical_defense < 0) {
-					cur_health += physical_defense;
-					show_debug_message(name + " hit for " + string(physical_defense * -1) + " damage");
-					cur_health = round(cur_health);
-					physical_defense = 0;
-				}
-				else {
-					physical_defense = round(physical_defense);
-				}
-			}
-		}
-		
-		break;
+var target = instance_find(obj_character, irandom_range(0, instance_number(obj_character)-1));
+ds_list_add(the_card.collected_targets, target);
+script_execute(the_card.do_action_script, the_card);
+ds_list_clear(the_card.collected_targets);
+with(scr_create_event_data(obj_event_data_turn_step, self)) {
+	scr_dispatch_blocking(self);
 }

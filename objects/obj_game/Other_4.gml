@@ -6,4 +6,7 @@ if(instance_exists(obj_encounter) && game_start) {
 	instance_create_layer(1152, 750, "Instances", obj_paladin);
 	instance_create_layer(1536, 700, "Instances", obj_barbarian);
 	game_start = false;
+	with(scr_create_event_data(obj_event_data_encounter_begin, self)) {
+		scr_dispatch_blocking(self);
+	}
 }

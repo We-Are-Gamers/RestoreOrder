@@ -1,18 +1,16 @@
-// Script assets have changed for v2.3.0 see
-// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function scr_cardplay_deck_fill_hand(deck){
-	var hand = deck.hand;
-	if(!instance_exists(hand.left_card)) {
-		hand.left_card = scr_cardplay_deck_draw_card(deck);
+function scr_cardplay_deck_hand_fill(deck_id, event_data_id){
+	var hand = deck_id.hand;
+	if(!instance_exists(hand.left)) {
+		hand.left = scr_cardplay_deck_draw_card(deck_id);
 		// bring the card into visible area
-		hand.left_card.x = hand.x-40;
-		hand.left_card.y = hand.y;
+		hand.left.x = hand.x-40;
+		hand.left.y = hand.y;
 	}
-	if(!instance_exists(hand.right_card)) {
-		hand.right_card = scr_cardplay_deck_draw_card(deck);
-		hand.right_card.visible = true;
+	if(!instance_exists(hand.right)) {
+		hand.right = scr_cardplay_deck_draw_card(deck_id);
+		hand.right.visible = true;
 		
-		hand.right_card.x = hand.x+40;
-		hand.right_card.y = hand.y;
+		hand.right.x = hand.x+40;
+		hand.right.y = hand.y;
 	}
 }
