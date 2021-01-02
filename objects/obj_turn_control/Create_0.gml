@@ -1,4 +1,5 @@
 scr_subscribe_to_event(enum_pub_sub_event_types.encounter_begin, scr_turn_control_encounter_begin, self);
+scr_subscribe_to_event(enum_pub_sub_event_types.encounter_end, scr_turn_control_encounter_end, self);
 scr_subscribe_to_event(enum_pub_sub_event_types.turn_begin, scr_turn_control_turn_begin, self);
 scr_subscribe_to_event(enum_pub_sub_event_types.turn_step, scr_turn_control_turn_step, self);
 scr_subscribe_to_event(enum_pub_sub_event_types.action_occured, scr_turn_control_action_occured, self);

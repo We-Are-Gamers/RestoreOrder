@@ -1,7 +1,3 @@
-if(!targetable) {
-	return;
-}
-
 if(selected) {
 	// Player is trying to un-select this card
 	selected = false;
@@ -15,8 +11,8 @@ if(selected) {
 	with(scr_create_event_data(obj_event_data_actions_activate, self)) {
 		scr_dispatch_blocking(self);
 	}
-} else {
-	// Player is selecting this card
+} else if(not selected and targetable) {
+	// Player is selecting this unselected card
 	selected = true;
 	// Deactivate all other actions
 	with(scr_create_event_data(obj_event_data_actions_deactivate, self)) {

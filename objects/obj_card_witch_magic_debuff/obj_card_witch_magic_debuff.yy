@@ -31,6 +31,7 @@
     {"propertyId":{"name":"character_type","path":"objects/obj_card/obj_card.yy",},"objectId":{"name":"obj_card","path":"objects/obj_card/obj_card.yy",},"value":"enum_character_types.witch","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"debuff_physical_atk","path":"objects/obj_card/obj_card.yy",},"objectId":{"name":"obj_card","path":"objects/obj_card/obj_card.yy",},"value":".5","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"is_magic","path":"objects/obj_card/obj_card.yy",},"objectId":{"name":"obj_card","path":"objects/obj_card/obj_card.yy",},"value":"True","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"buff_magic_atk","path":"objects/obj_card/obj_card.yy",},"objectId":{"name":"obj_card","path":"objects/obj_card/obj_card.yy",},"value":"0.5","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "witch",

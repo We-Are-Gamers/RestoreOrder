@@ -1,6 +1,8 @@
 function scr_default_do_action(card_id){
 	for(var i = 0; i < ds_list_size(card_id.collected_targets); ++i) {
 		var target = ds_list_find_value(card_id.collected_targets, i);
+		target._health += card_id.healing;
+		
 		target.physical_defense += card_id.physical_defense;
 		target.magic_defense += card_id.magic_defense;
 		
@@ -22,5 +24,7 @@ function scr_default_do_action(card_id){
 			show_debug_message(target.name + " hit for " + string(-target.magic_defense) + " magaic damage.");
 			target.magic_defense = 0;
 		}
+		
+		
 	}
 }

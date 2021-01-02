@@ -1,4 +1,3 @@
-if(targetable) {
-	image_xscale = global.large_scale;
-	image_yscale = global.large_scale;
+if(not selected and targetable) {
+	scr_get_big_for_me(self);
 }

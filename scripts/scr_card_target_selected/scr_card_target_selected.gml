@@ -1,15 +1,4 @@
 function scr_card_target_selected(card_id, event_data_id){
-	// if this card isn't selected
-	//	return
-	// elif this target is already in the target list
-	//	return
-	// else:
-	//	add to card target list
-	//	if target requirements are fulfilled:
-	//		execute card action script
-	//		apply mana cost
-	//		dispatch(targets_deactivate)
-	//		dispatch(action_occured)
 	with(card_id) {
 		if(!selected) {
 			return;

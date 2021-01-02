@@ -1,4 +1,3 @@
-if(targetable) {
-	image_xscale = 1;
-	image_yscale = 1;
+if(not selected and targetable) {
+	scr_resume_smallness(self);
 }
