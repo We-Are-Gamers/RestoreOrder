@@ -33,6 +33,8 @@
     {"propertyId":{"name":"physical_atk","path":"objects/obj_enemy/obj_enemy.yy",},"objectId":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},"value":"10","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"_health","path":"objects/obj_being/obj_being.yy",},"objectId":{"name":"obj_being","path":"objects/obj_being/obj_being.yy",},"value":"50","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"_health_base","path":"objects/obj_being/obj_being.yy",},"objectId":{"name":"obj_being","path":"objects/obj_being/obj_being.yy",},"value":"50","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"name","path":"objects/obj_being/obj_being.yy",},"objectId":{"name":"obj_being","path":"objects/obj_being/obj_being.yy",},"value":"Slime","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"blood","path":"objects/obj_enemy/obj_enemy.yy",},"objectId":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},"value":"50","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "level_1",

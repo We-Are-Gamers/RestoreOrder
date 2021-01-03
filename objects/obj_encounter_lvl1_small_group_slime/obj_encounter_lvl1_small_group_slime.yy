@@ -4,7 +4,10 @@
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_encounter",
+    "path": "objects/obj_encounter/obj_encounter.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -18,17 +21,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_encounter","path":"objects/obj_encounter/obj_encounter.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":1,"collisionObjectId":null,"parent":{"name":"obj_encounter","path":"objects/obj_encounter/obj_encounter.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_encounter_lvl1_small_group_slime","path":"objects/obj_encounter_lvl1_small_group_slime/obj_encounter_lvl1_small_group_slime.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "encounters",
-    "path": "folders/Objects/encounters.yy",
+    "name": "small_group",
+    "path": "folders/Objects/encounters/level_1/small_group.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_encounter",
+  "name": "obj_encounter_lvl1_small_group_slime",
   "tags": [],
   "resourceType": "GMObject",
 }

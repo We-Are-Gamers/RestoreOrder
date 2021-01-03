@@ -1,0 +1,1 @@
+draw_text(1850, 20, "Turn " + string(turn_counter));

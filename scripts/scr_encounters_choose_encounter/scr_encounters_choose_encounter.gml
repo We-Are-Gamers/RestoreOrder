@@ -12,5 +12,5 @@ function scr_encounters_choose_encounter(level){
 	var random_encounter = irandom_range(0, ds_list_size(level_list) - 1);
 	var encounter = ds_list_find_value(level_list, random_encounter);
 	
-	room_goto(encounter);
+	return encounter
 }

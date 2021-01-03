@@ -3,6 +3,10 @@ function scr_default_do_action(card_id){
 		var target = ds_list_find_value(card_id.collected_targets, i);
 		target._health += card_id.healing;
 		
+		if(target._health > target._health_base) {
+			target._health = target._health_base;
+		}
+		
 		target.physical_defense += card_id.physical_defense;
 		target.magic_defense += card_id.magic_defense;
 		
