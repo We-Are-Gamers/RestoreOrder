@@ -2,6 +2,9 @@
 enum enum_pub_sub_event_types {
 	test,
 	
+	game_begin,
+	game_end,
+	
 	encounter_begin,
 	encounter_end,
 	
@@ -10,8 +13,8 @@ enum enum_pub_sub_event_types {
 	
 	hand_fill,
 	
-	card_discard,
 	card_draw,
+	card_discard,
 	
 	action_occured,
 	actions_activate,

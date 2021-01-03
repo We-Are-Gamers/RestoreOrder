@@ -26,9 +26,9 @@
   "eventList": [],
   "properties": [],
   "overriddenProperties": [
-    {"propertyId":{"name":"position","path":"objects/obj_character/obj_character.yy",},"objectId":{"name":"obj_character","path":"objects/obj_character/obj_character.yy",},"value":"2","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-    {"propertyId":{"name":"name","path":"objects/obj_character/obj_character.yy",},"objectId":{"name":"obj_character","path":"objects/obj_character/obj_character.yy",},"value":"Witch","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-    {"propertyId":{"name":"is_magic","path":"objects/obj_character/obj_character.yy",},"objectId":{"name":"obj_character","path":"objects/obj_character/obj_character.yy",},"value":"True","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"obj_character","path":"objects/obj_character/obj_character.yy",},"objectId":{"name":"obj_character","path":"objects/obj_character/obj_character.yy",},"value":"2","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"obj_character","path":"objects/obj_character/obj_character.yy",},"objectId":{"name":"obj_character","path":"objects/obj_character/obj_character.yy",},"value":"Witch","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"obj_character","path":"objects/obj_character/obj_character.yy",},"objectId":{"name":"obj_character","path":"objects/obj_character/obj_character.yy",},"value":"True","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"character_type","path":"objects/obj_character/obj_character.yy",},"objectId":{"name":"obj_character","path":"objects/obj_character/obj_character.yy",},"value":"enum_character_types.witch","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"name","path":"objects/obj_being/obj_being.yy",},"objectId":{"name":"obj_being","path":"objects/obj_being/obj_being.yy",},"value":"Witch","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"being_type","path":"objects/obj_being/obj_being.yy",},"objectId":{"name":"obj_being","path":"objects/obj_being/obj_being.yy",},"value":"enum_being_types.physical","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},

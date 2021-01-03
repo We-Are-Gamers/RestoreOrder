@@ -27,7 +27,7 @@
   "properties": [],
   "overriddenProperties": [
     {"propertyId":{"name":"card_name","path":"objects/obj_card/obj_card.yy",},"objectId":{"name":"obj_card","path":"objects/obj_card/obj_card.yy",},"value":"Attack","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-    {"propertyId":{"name":"target_type","path":"objects/obj_card/obj_card.yy",},"objectId":{"name":"obj_card","path":"objects/obj_card/obj_card.yy",},"value":"Enemy","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"obj_card","path":"objects/obj_card/obj_card.yy",},"objectId":{"name":"obj_card","path":"objects/obj_card/obj_card.yy",},"value":"Enemy","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"physical_atk","path":"objects/obj_card/obj_card.yy",},"objectId":{"name":"obj_card","path":"objects/obj_card/obj_card.yy",},"value":"10","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"character_type","path":"objects/obj_card/obj_card.yy",},"objectId":{"name":"obj_card","path":"objects/obj_card/obj_card.yy",},"value":"enum_character_types.barbarian","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"num_targets","path":"objects/obj_card/obj_card.yy",},"objectId":{"name":"obj_card","path":"objects/obj_card/obj_card.yy",},"value":"2","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
