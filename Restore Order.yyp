@@ -13,7 +13,6 @@
     {"id":{"name":"spr_paladin","path":"sprites/spr_paladin/spr_paladin.yy",},"order":1,},
     {"id":{"name":"spr_cleric","path":"sprites/spr_cleric/spr_cleric.yy",},"order":3,},
     {"id":{"name":"obj_encounter_lvl1_champion_mother_slime","path":"objects/obj_encounter_lvl1_champion_mother_slime/obj_encounter_lvl1_champion_mother_slime.yy",},"order":0,},
-    {"id":{"name":"scr_enemy_run_turn","path":"scripts/scr_enemy_run_turn/scr_enemy_run_turn.yy",},"order":0,},
     {"id":{"name":"obj_targetable","path":"objects/obj_targetable/obj_targetable.yy",},"order":13,},
     {"id":{"name":"obj_event_data_lose","path":"objects/obj_event_data_lose/obj_event_data_lose.yy",},"order":18,},
     {"id":{"name":"obj_event_data_game_begin","path":"objects/obj_event_data_game_begin/obj_event_data_game_begin.yy",},"order":19,},

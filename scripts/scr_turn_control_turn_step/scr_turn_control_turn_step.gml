@@ -1,12 +1,9 @@
 function scr_turn_control_turn_step(turn_control_id, event_data_id){
 	
 	// Remove any being that is dead
-	for(var i = 0; i < instance_number(obj_being); ++i) {
-		var being = instance_find(obj_being, i);
-		if(being._health <= 0) {
-			with(being) {
-				instance_destroy();
-			}
+	with(obj_being) {
+		if(_health <= 0) {
+			instance_destroy();
 		}
 	}
 	
