@@ -1,6 +1,3 @@
-// Script assets have changed for v2.3.0 see
-// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-
 // Draw one card off the draw_pile
 // Shuffle the discard into the draw pile if there aren't any
 function scr_cardplay_deck_draw_card(deck){

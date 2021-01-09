@@ -6,10 +6,6 @@ draw_set_halign(fa_center);
 draw_text(x, y + half_height + 20, name);
 draw_text(x, y + half_height + 40, string(_health) + "/" + string(_health_base));
 
-if(being_type == enum_being_types.magic) {
-	draw_text(x - 200, y + half_height + 60, "Magic Enemy");
-}
-
 draw_set_halign(fa_left);
 
 draw_text(x - half_width - 120, y - 40, "Phys Atk: " + string(physical_atk) + " * " + string(physical_atk_mult));

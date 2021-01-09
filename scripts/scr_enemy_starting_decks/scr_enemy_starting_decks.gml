@@ -1,0 +1,1 @@
+global.cfg_enemy_starting_decks = ds_map_create();

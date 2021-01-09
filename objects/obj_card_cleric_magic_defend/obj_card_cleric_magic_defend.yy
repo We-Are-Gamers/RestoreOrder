@@ -28,7 +28,7 @@
   "overriddenProperties": [
     {"propertyId":{"name":"card_name","path":"objects/obj_card/obj_card.yy",},"objectId":{"name":"obj_card","path":"objects/obj_card/obj_card.yy",},"value":"Magic Defend","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"magic_defense","path":"objects/obj_card/obj_card.yy",},"objectId":{"name":"obj_card","path":"objects/obj_card/obj_card.yy",},"value":"10","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-    {"propertyId":{"name":"character_type","path":"objects/obj_card/obj_card.yy",},"objectId":{"name":"obj_card","path":"objects/obj_card/obj_card.yy",},"value":"enum_character_types.cleric","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"character_type","path":"objects/obj_card/obj_card.yy",},"objectId":{"name":"obj_card","path":"objects/obj_card/obj_card.yy",},"value":"enum_being_types.cleric","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"obj_card","path":"objects/obj_card/obj_card.yy",},"objectId":{"name":"obj_card","path":"objects/obj_card/obj_card.yy",},"value":"True","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {

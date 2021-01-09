@@ -1,7 +1,5 @@
 event_inherited();
 
-instance_destroy(the_card);
-
 instance_create_layer(640, 150, "Instances", obj_enemy_slime);
 instance_create_layer(1280, 150, "Instances", obj_enemy_slime);
 	

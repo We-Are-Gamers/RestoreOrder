@@ -1,12 +1,10 @@
-// Script assets have changed for v2.3.0 see
-// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-global.cfg_character_starting_decks = ds_map_create()
+global.cfg_being_starting_decks = ds_map_create();
 
 
 //cleric starting deck
 ds_map_add(
-	global.cfg_character_starting_decks,
-	enum_character_types.cleric,
+	global.cfg_being_starting_decks,
+	enum_being_types.cleric,
 	[
 		obj_card_cleric_magic_defend,
 		obj_card_cleric_magic_heal,
@@ -17,8 +15,8 @@ ds_map_add(
 
 //witch starting deck
 ds_map_add(
-	global.cfg_character_starting_decks,
-	enum_character_types.witch,
+	global.cfg_being_starting_decks,
+	enum_being_types.witch,
 	[
 		obj_card_witch_magic_attack,
 		obj_card_witch_magic_attack,
@@ -29,8 +27,8 @@ ds_map_add(
 
 //paladin starting deck
 ds_map_add(
-	global.cfg_character_starting_decks,
-	enum_character_types.paladin,
+	global.cfg_being_starting_decks,
+	enum_being_types.paladin,
 	[
 		obj_card_paladin_defend,
 		obj_card_paladin_defend,
@@ -40,11 +38,49 @@ ds_map_add(
 )
 //barbarian starting deck
 ds_map_add(
-	global.cfg_character_starting_decks,
-	enum_character_types.barbarian,
+	global.cfg_being_starting_decks,
+	enum_being_types.barbarian,
 	[
 		obj_card_barbarian_attack,
 		obj_card_barbarian_attack,
+		obj_card_barbarian_attack,
+		obj_card_barbarian_debuff,
+	]
+)
+
+// low-health enemy
+ds_map_add(
+	global.cfg_being_starting_decks,
+	enum_being_types.low_health,
+	[
+		obj_card_barbarian_attack,
+	]
+);
+
+// high-health enemy
+ds_map_add(
+	global.cfg_being_starting_decks,
+	enum_being_types.high_health,
+	[
+		obj_card_barbarian_attack,
+	]
+)
+
+// low-buff enemy
+ds_map_add(
+	global.cfg_being_starting_decks,
+	enum_being_types.low_buff,
+	[
+		obj_card_barbarian_attack,
+		obj_card_barbarian_debuff,
+	]
+)
+
+// high-buff enemy
+ds_map_add(
+	global.cfg_being_starting_decks,
+	enum_being_types.high_buff,
+	[
 		obj_card_barbarian_attack,
 		obj_card_barbarian_debuff,
 	]
