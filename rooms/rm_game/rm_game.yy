@@ -14,7 +14,6 @@
   ],
   "layers": [
     {"instances":[
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_spellbook_book","path":"objects/obj_spellbook_book/obj_spellbook_book.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":4.0,"scaleY":3.5,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":448.0,"y":0.0,"resourceVersion":"1.0","name":"inst_6F8827B3","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_card_barbarian_attack","path":"objects/obj_card_barbarian_attack/obj_card_barbarian_attack.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":576.0,"y":138.0,"resourceVersion":"1.0","name":"inst_421AB0BD","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_card_barbarian_debuff","path":"objects/obj_card_barbarian_debuff/obj_card_barbarian_debuff.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":696.0,"y":112.0,"resourceVersion":"1.0","name":"inst_13DF7019","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_card_cleric_magic_defend","path":"objects/obj_card_cleric_magic_defend/obj_card_cleric_magic_defend.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":815.0,"y":103.0,"resourceVersion":"1.0","name":"inst_219E10CD","tags":[],"resourceType":"GMRInstance",},
@@ -33,7 +32,6 @@
   "creationCodeFile": "",
   "inheritCode": false,
   "instanceCreationOrder": [
-    {"name":"inst_6F8827B3","path":"rooms/rm_game/rm_game.yy",},
     {"name":"inst_421AB0BD","path":"rooms/rm_game/rm_game.yy",},
     {"name":"inst_13DF7019","path":"rooms/rm_game/rm_game.yy",},
     {"name":"inst_219E10CD","path":"rooms/rm_game/rm_game.yy",},

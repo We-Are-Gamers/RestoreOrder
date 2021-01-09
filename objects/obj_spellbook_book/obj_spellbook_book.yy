@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_spellbook_ui",
-    "path": "sprites/spr_spellbook_ui/spr_spellbook_ui.yy",
+    "name": "spr_spellbook_book_big",
+    "path": "sprites/spr_spellbook_book_big/spr_spellbook_book_big.yy",
   },
   "solid": false,
   "visible": true,
