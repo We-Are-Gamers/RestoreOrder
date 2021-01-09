@@ -82,7 +82,7 @@
     {"id":{"name":"scr_cardplay_deck_draw_card","path":"scripts/scr_cardplay_deck_draw_card/scr_cardplay_deck_draw_card.yy",},"order":4,},
     {"id":{"name":"rm_gameover","path":"rooms/rm_gameover/rm_gameover.yy",},"order":1,},
     {"id":{"name":"obj_enemy_slime","path":"objects/obj_enemy_slime/obj_enemy_slime.yy",},"order":0,},
-    {"id":{"name":"scr_cardplay_deck_fill_hand","path":"scripts/scr_cardplay_deck_fill_hand/scr_cardplay_deck_fill_hand.yy",},"order":3,},
+    {"id":{"name":"scr_cardplay_deck_hand_fill","path":"scripts/scr_cardplay_deck_hand_fill/scr_cardplay_deck_hand_fill.yy",},"order":3,},
     {"id":{"name":"spr_barbarian","path":"sprites/spr_barbarian/spr_barbarian.yy",},"order":0,},
     {"id":{"name":"scr_unsubscribe_from_all","path":"scripts/scr_unsubscribe_from_all/scr_unsubscribe_from_all.yy",},"order":4,},
     {"id":{"name":"scr_encounters_lvl3_pop_lists","path":"scripts/scr_encounters_lvl3_pop_lists/scr_encounters_lvl3_pop_lists.yy",},"order":3,},

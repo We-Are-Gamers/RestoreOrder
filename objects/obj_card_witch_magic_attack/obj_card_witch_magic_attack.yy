@@ -31,6 +31,7 @@
     {"propertyId":{"name":"magic_atk","path":"objects/obj_card/obj_card.yy",},"objectId":{"name":"obj_card","path":"objects/obj_card/obj_card.yy",},"value":"15","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"character_type","path":"objects/obj_card/obj_card.yy",},"objectId":{"name":"obj_card","path":"objects/obj_card/obj_card.yy",},"value":"enum_being_types.witch","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"obj_card","path":"objects/obj_card/obj_card.yy",},"objectId":{"name":"obj_card","path":"objects/obj_card/obj_card.yy",},"value":"True","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"atk","path":"objects/obj_card/obj_card.yy",},"objectId":{"name":"obj_card","path":"objects/obj_card/obj_card.yy",},"value":"15","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "witch",

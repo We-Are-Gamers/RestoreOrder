@@ -6,7 +6,7 @@
     "path": "folders/Scripts/objects/cardplay.yy",
   },
   "resourceVersion": "1.0",
-  "name": "scr_cardplay_deck_fill_hand",
+  "name": "scr_cardplay_deck_hand_fill",
   "tags": [],
   "resourceType": "GMScript",
 }
