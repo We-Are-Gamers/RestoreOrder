@@ -25,6 +25,9 @@ enum enum_pub_sub_event_types {
 	targets_activate,
 	targets_deactivate,
 	
+	spellbook_selected,
+	spellbook_deselected,
+	
 	enemies_killed,
 	enemies_spawned,
 	
