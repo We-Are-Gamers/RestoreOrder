@@ -6,7 +6,7 @@
     "path": "folders/Scripts/configuration.yy",
   },
   "resourceVersion": "1.0",
-  "name": "scr_enemy_starting_decks",
+  "name": "scr_being_starting_decks",
   "tags": [],
   "resourceType": "GMScript",
 }

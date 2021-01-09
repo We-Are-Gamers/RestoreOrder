@@ -8,5 +8,5 @@ function scr_cardplay_deck_init(deck, being_id){
 	}
 	deck.hand.cards = array_create(deck.hand_size, noone);
 	scr_cardplay_deck_shuffle(deck);
-	scr_cardplay_deck_hand_fill(deck, noone); // this is probably bad
+	scr_cardplay_deck_hand_fill_helper(deck);
 }
