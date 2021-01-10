@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "enums",
-    "path": "folders/Scripts/enums.yy",
+    "name": "cardplay",
+    "path": "folders/Scripts/objects/cardplay.yy",
   },
   "resourceVersion": "1.0",
-  "name": "scr_character_types",
+  "name": "scr_cardplay_deck_hand_fill_helper",
   "tags": [],
   "resourceType": "GMScript",
 }

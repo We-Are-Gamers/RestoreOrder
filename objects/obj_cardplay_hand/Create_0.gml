@@ -1,2 +1,1 @@
-left = noone;
-right = noone;
+cards = [];

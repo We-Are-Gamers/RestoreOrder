@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "cardplay",
-    "path": "folders/Scripts/objects/cardplay.yy",
+    "name": "configuration",
+    "path": "folders/Scripts/configuration.yy",
   },
   "resourceVersion": "1.0",
-  "name": "scr_cardplay_deck_fill_hand",
+  "name": "scr_being_starting_decks",
   "tags": [],
   "resourceType": "GMScript",
 }

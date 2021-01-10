@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [
     {"propertyId":{"name":"card_name","path":"objects/obj_card/obj_card.yy",},"objectId":{"name":"obj_card","path":"objects/obj_card/obj_card.yy",},"value":"Defend","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-    {"propertyId":{"name":"physical_defense","path":"objects/obj_card/obj_card.yy",},"objectId":{"name":"obj_card","path":"objects/obj_card/obj_card.yy",},"value":"10","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-    {"propertyId":{"name":"character_type","path":"objects/obj_card/obj_card.yy",},"objectId":{"name":"obj_card","path":"objects/obj_card/obj_card.yy",},"value":"enum_character_types.paladin","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"defense","path":"objects/obj_card/obj_card.yy",},"objectId":{"name":"obj_card","path":"objects/obj_card/obj_card.yy",},"value":"10","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"character_type","path":"objects/obj_card/obj_card.yy",},"objectId":{"name":"obj_card","path":"objects/obj_card/obj_card.yy",},"value":"enum_being_types.paladin","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "paladin",
