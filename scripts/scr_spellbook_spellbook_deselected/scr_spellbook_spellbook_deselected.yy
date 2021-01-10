@@ -2,8 +2,8 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "character_spellbook",
-    "path": "folders/Scripts/objects/ui/character_spellbook.yy",
+    "name": "spellbook",
+    "path": "folders/Scripts/objects/ui/spellbook.yy",
   },
   "resourceVersion": "1.0",
   "name": "scr_spellbook_spellbook_deselected",

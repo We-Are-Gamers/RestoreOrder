@@ -258,7 +258,7 @@
     {"folderPath":"folders/Objects/encounters/level_4/commander.yy","order":4,"resourceVersion":"1.0","name":"commander","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/ui/spellbook.yy","order":2,"resourceVersion":"1.0","name":"spellbook","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Scripts/objects/ui.yy","order":8,"resourceVersion":"1.0","name":"ui","tags":[],"resourceType":"GMFolder",},
-    {"folderPath":"folders/Scripts/objects/ui/character_spellbook.yy","order":1,"resourceVersion":"1.0","name":"character_spellbook","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Scripts/objects/ui/spellbook.yy","order":1,"resourceVersion":"1.0","name":"spellbook","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/ui/spellbook.yy","order":2,"resourceVersion":"1.0","name":"spellbook","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
