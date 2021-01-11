@@ -3,6 +3,9 @@ function scr_dispatch_helper(event_data_id, is_blocking){
 	
 	// If there isn't a list of subscriptions for this type, do nothing.
 	if(!ds_map_exists(global.cfg_published_events_map, pub_sub_event_type)) {
+		show_debug_message("*********** Warning: event dispatched, but no listeners. ************");
+		show_debug_message("Event type: " + string(pub_sub_event_type)); 
+		show_debug_message("Did you mean to add listeners for this event?"); 
 		return;
 	}
 	

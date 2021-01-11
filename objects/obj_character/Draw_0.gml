@@ -1,3 +1,5 @@
+draw_self();
+
 var half_width = sprite_width / 2;
 var half_height = sprite_height / 2;
 
