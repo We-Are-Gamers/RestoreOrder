@@ -1,5 +1,9 @@
 function scr_turn_control_player_turn_step(turn_control_id){
 	with(turn_control_id) {
+		with(scr_create_event_data(obj_event_data_enemy_evaluate_target, self)) {
+			scr_dispatch_blocking(self);
+		}
+		
 		// Switch to enemy turn stage if appropriate
 		if(global.mana == 0) {
 			turn = enum_turn_stage_types.enemy;

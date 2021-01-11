@@ -32,6 +32,8 @@ enum enum_pub_sub_event_types {
 	enemies_killed,
 	enemies_spawned,
 	
+	enemy_evaluate_target,
+	
 	lose,
 	length
 }

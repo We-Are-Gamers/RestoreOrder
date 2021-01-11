@@ -1,0 +1,3 @@
+event_inherited();
+
+scr_subscribe_to_event(enum_pub_sub_event_types.enemy_evaluate_target, scr_enemy_type_low_health_evaluate_target, self);
