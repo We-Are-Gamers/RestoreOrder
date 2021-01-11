@@ -94,7 +94,6 @@
     {"id":{"name":"obj_enemy_type_low_health","path":"objects/obj_enemy_type_low_health/obj_enemy_type_low_health.yy",},"order":0,},
     {"id":{"name":"obj_cardplay_draw_pile","path":"objects/obj_cardplay_draw_pile/obj_cardplay_draw_pile.yy",},"order":4,},
     {"id":{"name":"obj_cardplay_deck","path":"objects/obj_cardplay_deck/obj_cardplay_deck.yy",},"order":1,},
-    {"id":{"name":"obj_spellbook_book","path":"objects/obj_spellbook_book/obj_spellbook_book.yy",},"order":2,},
     {"id":{"name":"scr_encounters_map_add_level_lists","path":"scripts/scr_encounters_map_add_level_lists/scr_encounters_map_add_level_lists.yy",},"order":2,},
     {"id":{"name":"obj_card_cleric_magic_defend","path":"objects/obj_card_cleric_magic_defend/obj_card_cleric_magic_defend.yy",},"order":0,},
     {"id":{"name":"obj_event_data_targets_deactivate","path":"objects/obj_event_data_targets_deactivate/obj_event_data_targets_deactivate.yy",},"order":10,},

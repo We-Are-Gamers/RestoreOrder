@@ -6,7 +6,9 @@ instance_create_layer(768, 805, "Instances", obj_witch);
 instance_create_layer(1152, 805, "Instances", obj_paladin);
 instance_create_layer(1536, 765, "Instances", obj_barbarian);
 
-instance_create_layer(0, 0, "Instances", obj_spellbook);
+
+// Put this at -300 because "Instances" is at -200 and this should be on top of that
+instance_create_depth(-2000, 0, -300, obj_spellbook);
 
 scr_encounters_get_level_map(enum_level_names.electric);
 	
