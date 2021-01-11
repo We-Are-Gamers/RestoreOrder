@@ -1,6 +1,6 @@
 function scr_spellbook_actions_deactivate(spellbook_id, event_data_id){
 	// Don't deactivate ourselves.
-	if(event_data_id.id == spellbook_id.id) {
+	if(event_data_id.dispatcher_id.id == spellbook_id.id) {
 		return;
 	}
 	with(obj_spellbook_button) {

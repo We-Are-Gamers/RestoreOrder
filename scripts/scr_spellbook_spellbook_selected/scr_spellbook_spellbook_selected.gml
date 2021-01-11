@@ -8,5 +8,10 @@ function scr_spellbook_spellbook_selected(spellbook_id, event_data_id){
 	spellbook_id.selected_character_id = event_data_id.character;
 	spellbook_id.book_id.x = 448;
 	
+	// Inform everyone that they are deactivated
+	with(scr_create_event_data(obj_event_data_actions_deactivate, spellbook_id)) {
+		scr_dispatch_blocking(self);
+	}
+	
 	show_debug_message("Spellbook on " + character.name + " was clicked.");
 }
