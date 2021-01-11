@@ -1,0 +1,2 @@
+scr_subscribe_to_event(enum_pub_sub_event_types.actions_activate, scr_discard_hand_actions_activate, self);
+scr_subscribe_to_event(enum_pub_sub_event_types.actions_deactivate, scr_discard_hand_actions_deactivate, self);

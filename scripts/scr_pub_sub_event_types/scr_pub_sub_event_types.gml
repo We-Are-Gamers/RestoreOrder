@@ -12,6 +12,7 @@ enum enum_pub_sub_event_types {
 	turn_step,
 	
 	hand_fill,
+	hand_discard,
 	
 	card_draw,
 	card_discard,
