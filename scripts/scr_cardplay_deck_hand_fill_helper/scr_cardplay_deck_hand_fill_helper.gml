@@ -9,8 +9,10 @@ function scr_cardplay_deck_hand_fill_helper(deck_id) {
 			array_set(hand.cards, i, scr_cardplay_deck_draw_card(deck_id));
 			// bring the card into the visible area
 			var card = array_get(hand.cards, i);
-			card.x = (hand.x - middle) + (80 * i);
-			card.y = hand.y;
+			if(instance_exists(card)) {
+				card.x = (hand.x - middle) + (80 * i);
+				card.y = hand.y;
+			}
 		}
 	}
 }
