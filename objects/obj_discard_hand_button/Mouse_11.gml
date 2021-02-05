@@ -1,3 +1,3 @@
 if(targetable) {
-	scr_resume_smallness(self);
+	image_index=0;
 }

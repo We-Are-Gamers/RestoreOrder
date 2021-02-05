@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_discard_hand_button",
-    "path": "sprites/spr_discard_hand_button/spr_discard_hand_button.yy",
+    "name": "spr_discard_button",
+    "path": "sprites/spr_discard_button/spr_discard_button.yy",
   },
   "solid": false,
   "visible": true,

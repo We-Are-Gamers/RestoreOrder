@@ -1,3 +1,3 @@
 if(targetable) {
-	scr_get_big_for_me(self);
+	image_index=1;
 }

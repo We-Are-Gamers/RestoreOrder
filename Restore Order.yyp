@@ -153,6 +153,7 @@
     {"id":{"name":"scr_targetable_targets_deactivate","path":"scripts/scr_targetable_targets_deactivate/scr_targetable_targets_deactivate.yy",},"order":1,},
     {"id":{"name":"spr_spellbook_button_open","path":"sprites/spr_spellbook_button_open/spr_spellbook_button_open.yy",},"order":3,},
     {"id":{"name":"scr_level_names","path":"scripts/scr_level_names/scr_level_names.yy",},"order":2,},
+    {"id":{"name":"spr_discard_button","path":"sprites/spr_discard_button/spr_discard_button.yy",},"order":3,},
     {"id":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},"order":0,},
   ],
   "Options": [
@@ -267,8 +268,8 @@
     {"folderPath":"folders/Objects/ui/spellbook.yy","order":2,"resourceVersion":"1.0","name":"spellbook","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Scripts/objects/ui.yy","order":8,"resourceVersion":"1.0","name":"ui","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Scripts/objects/ui/spellbook.yy","order":1,"resourceVersion":"1.0","name":"spellbook","tags":[],"resourceType":"GMFolder",},
-    {"folderPath":"folders/Sprites/ui/spellbook.yy","order":2,"resourceVersion":"1.0","name":"spellbook","tags":[],"resourceType":"GMFolder",},
-    {"folderPath":"folders/Sprites/ui/discard_hand.yy","order":3,"resourceVersion":"1.0","name":"discard_hand","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/ui/spellbook.yy","order":1,"resourceVersion":"1.0","name":"spellbook","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/ui/discard_hand.yy","order":2,"resourceVersion":"1.0","name":"discard_hand","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/ui/discard_hand.yy","order":3,"resourceVersion":"1.0","name":"discard_hand","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Scripts/objects/ui/discard_hand.yy","order":2,"resourceVersion":"1.0","name":"discard_hand","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Scripts/objects/ui/discard_hand/discard_hand_button.yy","order":2,"resourceVersion":"1.0","name":"discard_hand_button","tags":[],"resourceType":"GMFolder",},
