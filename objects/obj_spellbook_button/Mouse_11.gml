@@ -1,3 +1,3 @@
 if(targetable and not selected) {
-	scr_resume_smallness(self);
+	sprite_index = spr_spellbook_button;
 }

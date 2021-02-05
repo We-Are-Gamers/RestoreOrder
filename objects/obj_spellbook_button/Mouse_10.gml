@@ -1,3 +1,4 @@
 if(targetable) {
-	scr_get_big_for_me(self);
+	show_debug_message("Mouse enter this button");
+	sprite_index = spr_spellbook_button_open;
 }

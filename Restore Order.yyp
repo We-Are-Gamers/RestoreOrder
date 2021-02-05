@@ -151,6 +151,7 @@
     {"id":{"name":"scr_turn_control_encounter_begin","path":"scripts/scr_turn_control_encounter_begin/scr_turn_control_encounter_begin.yy",},"order":0,},
     {"id":{"name":"scr_published_events_map","path":"scripts/scr_published_events_map/scr_published_events_map.yy",},"order":3,},
     {"id":{"name":"scr_targetable_targets_deactivate","path":"scripts/scr_targetable_targets_deactivate/scr_targetable_targets_deactivate.yy",},"order":1,},
+    {"id":{"name":"spr_spellbook_button_open","path":"sprites/spr_spellbook_button_open/spr_spellbook_button_open.yy",},"order":3,},
     {"id":{"name":"scr_level_names","path":"scripts/scr_level_names/scr_level_names.yy",},"order":2,},
     {"id":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},"order":0,},
   ],
