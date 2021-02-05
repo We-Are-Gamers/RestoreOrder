@@ -115,6 +115,7 @@
     {"id":{"name":"scr_turn_stage_types","path":"scripts/scr_turn_stage_types/scr_turn_stage_types.yy",},"order":5,},
     {"id":{"name":"rm_win","path":"rooms/rm_win/rm_win.yy",},"order":2,},
     {"id":{"name":"spr_card_cleric_magic_defend","path":"sprites/spr_card_cleric_magic_defend/spr_card_cleric_magic_defend.yy",},"order":0,},
+    {"id":{"name":"spr_card_mat","path":"sprites/spr_card_mat/spr_card_mat.yy",},"order":7,},
     {"id":{"name":"obj_event_data_encounter_end","path":"objects/obj_event_data_encounter_end/obj_event_data_encounter_end.yy",},"order":17,},
     {"id":{"name":"obj_turn_control","path":"objects/obj_turn_control/obj_turn_control.yy",},"order":5,},
     {"id":{"name":"scr_cardplay_deck_hand_discard","path":"scripts/scr_cardplay_deck_hand_discard/scr_cardplay_deck_hand_discard.yy",},"order":7,},
