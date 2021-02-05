@@ -7,6 +7,7 @@ function scr_spellbook_spellbook_selected(spellbook_id, event_data_id){
 	}
 	spellbook_id.selected_character_id = event_data_id.character;
 	spellbook_id.x = 448;
+	spellbook_id.spellbook_deck = ds_map_find_value(global.cfg_character_complete_decks, event_data_id.character.being_type);
 	
 	// Inform everyone that they are deactivated
 	with(scr_create_event_data(obj_event_data_actions_deactivate, spellbook_id)) {

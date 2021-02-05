@@ -108,6 +108,7 @@
         {"FrameId":{"name":"19b9cc4f-04e5-439a-a5f0-3f44a5db6075","path":"sprites/spr_spellbook_book_big/spr_spellbook_book_big.yy",},"LayerId":{"name":"829a9434-a84a-4642-8453-d8f965e74547","path":"sprites/spr_spellbook_book_big/spr_spellbook_book_big.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"19b9cc4f-04e5-439a-a5f0-3f44a5db6075","path":"sprites/spr_spellbook_book_big/spr_spellbook_book_big.yy",},"LayerId":{"name":"212b5a61-c676-438b-9d65-7856009bcc25","path":"sprites/spr_spellbook_book_big/spr_spellbook_book_big.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"19b9cc4f-04e5-439a-a5f0-3f44a5db6075","path":"sprites/spr_spellbook_book_big/spr_spellbook_book_big.yy",},"LayerId":{"name":"81dbf8d2-7b86-4418-94e7-25990951e0bc","path":"sprites/spr_spellbook_book_big/spr_spellbook_book_big.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"19b9cc4f-04e5-439a-a5f0-3f44a5db6075","path":"sprites/spr_spellbook_book_big/spr_spellbook_book_big.yy",},"LayerId":{"name":"eaf5b32f-3e39-426a-8ec4-36d7aba064dd","path":"sprites/spr_spellbook_book_big/spr_spellbook_book_big.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_spellbook_book_big","path":"sprites/spr_spellbook_book_big/spr_spellbook_book_big.yy",},"resourceVersion":"1.0","name":"19b9cc4f-04e5-439a-a5f0-3f44a5db6075","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
@@ -147,6 +148,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 4","resourceVersion":"1.0","name":"eaf5b32f-3e39-426a-8ec4-36d7aba064dd","tags":[],"resourceType":"GMImageLayer",},
     {"visible":false,"isLocked":true,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"0d58799e-541b-4029-bfde-1263d1226dd8","tags":[],"resourceType":"GMImageLayer",},
     {"visible":true,"isLocked":true,"blendMode":0,"opacity":100.0,"displayName":"Layer 3","resourceVersion":"1.0","name":"829a9434-a84a-4642-8453-d8f965e74547","tags":[],"resourceType":"GMImageLayer",},
     {"visible":true,"isLocked":true,"blendMode":0,"opacity":100.0,"displayName":"Layer 2","resourceVersion":"1.0","name":"212b5a61-c676-438b-9d65-7856009bcc25","tags":[],"resourceType":"GMImageLayer",},

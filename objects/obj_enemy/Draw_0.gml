@@ -21,4 +21,6 @@ if(targetable) {
 	draw_rectangle_color(x - sprite_xleft, y + sprite_yleft, x - sprite_xright, y + sprite_yright, c_black, c_black, c_black, c, true);
 }
 
-draw_line(x, y, target.x, target.y);
+if(draw_target_line) {
+	draw_line(x, y, target.x, target.y);
+}
