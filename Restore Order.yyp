@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"cobble_background_grey","path":"sprites/cobble_background_grey/cobble_background_grey.yy",},"order":5,},
     {"id":{"name":"obj_event_data_test","path":"objects/obj_event_data_test/obj_event_data_test.yy",},"order":0,},
     {"id":{"name":"spr_monster","path":"sprites/spr_monster/spr_monster.yy",},"order":0,},
     {"id":{"name":"obj_event_data_card_discard","path":"objects/obj_event_data_card_discard/obj_event_data_card_discard.yy",},"order":14,},
