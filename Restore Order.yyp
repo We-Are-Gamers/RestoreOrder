@@ -105,6 +105,7 @@
     {"id":{"name":"scr_card_hide","path":"scripts/scr_card_hide/scr_card_hide.yy",},"order":1,},
     {"id":{"name":"spr_card_barbarian_debuff","path":"sprites/spr_card_barbarian_debuff/spr_card_barbarian_debuff.yy",},"order":1,},
     {"id":{"name":"scr_cardplay_deck_draw_card","path":"scripts/scr_cardplay_deck_draw_card/scr_cardplay_deck_draw_card.yy",},"order":4,},
+    {"id":{"name":"spr_witch_new","path":"sprites/spr_witch_new/spr_witch_new.yy",},"order":4,},
     {"id":{"name":"rm_gameover","path":"rooms/rm_gameover/rm_gameover.yy",},"order":1,},
     {"id":{"name":"obj_enemy_slime","path":"objects/obj_enemy_slime/obj_enemy_slime.yy",},"order":0,},
     {"id":{"name":"obj_spellbook_button","path":"objects/obj_spellbook_button/obj_spellbook_button.yy",},"order":1,},
