@@ -6,3 +6,4 @@ spellbook_button = instance_create_layer(x+30, y, "Instances", obj_spellbook_but
 discard_hand_button = instance_create_layer(x+40, y-70, "Instances", obj_discard_hand_button);
 discard_hand_button.deck = deck;
 spellbook_button.character = self;
+attackers = ds_list_create();

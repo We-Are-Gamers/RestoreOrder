@@ -6,3 +6,7 @@ scr_subscribe_to_event(enum_pub_sub_event_types.spellbook_deselected, scr_spellb
 // Move ourselves offscreen
 x = -2000;
 y = 0;
+
+spellbook_deck = [];
+scroll_y = 0;
+spellbook_surface = -1;

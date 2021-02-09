@@ -5,6 +5,10 @@ function scr_enemy_type_low_health_evaluate_target(enemy_id, event_data_id) {
 	with(obj_character) {
 		if(ds_list_find_index(target_list, self) == -1) {
 			var current_character_rep = ds_list_find_value(target_list, 0);
+			var character_health = current_character_rep._health;
+			if(character_health <= 0) {
+				continue;
+			}
 			if(self._health == current_character_rep._health) {
 				ds_list_add(target_list, self);
 			}
@@ -18,4 +22,5 @@ function scr_enemy_type_low_health_evaluate_target(enemy_id, event_data_id) {
 	var target_idx = choose(0, ds_list_size(target_list) - 1);
 	enemy_id.target = ds_list_find_value(target_list, target_idx);
 	show_debug_message("target is " + object_get_name(enemy_id.target.object_index));
+	enemy_id.draw_target_line = true;
 }

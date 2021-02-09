@@ -18,4 +18,5 @@ function scr_enemy_type_high_health_evaluate_target(enemy_id, event_data_id) {
 	var target_idx = choose(0, ds_list_size(target_list) - 1);
 	enemy_id.target = ds_list_find_value(target_list, target_idx);
 	show_debug_message("target is " + object_get_name(enemy_id.target.object_index));
+	enemy_id.draw_target_line = true;
 }
