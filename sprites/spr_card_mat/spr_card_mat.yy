@@ -76,8 +76,8 @@
     {"visible":true,"isLocked":true,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"ca291d63-ea93-4671-813e-c460ee3a952c","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "ui",
-    "path": "folders/Sprites/ui.yy",
+    "name": "hand_area",
+    "path": "folders/Sprites/ui/hand_area.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_card_mat",

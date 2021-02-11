@@ -25,16 +25,12 @@
   "gridY": 16,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"2461414f-83d7-42dc-996c-4870abfb5bdb","path":"sprites/spr_discard_button/spr_discard_button.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"2461414f-83d7-42dc-996c-4870abfb5bdb","path":"sprites/spr_discard_button/spr_discard_button.yy",},"LayerId":{"name":"51cd41ca-5075-41c6-b4b7-f1efcd89fa57","path":"sprites/spr_discard_button/spr_discard_button.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"2461414f-83d7-42dc-996c-4870abfb5bdb","path":"sprites/spr_discard_button/spr_discard_button.yy",},"LayerId":{"name":"8f6cedef-daff-41f5-a2a5-1b60deeff239","path":"sprites/spr_discard_button/spr_discard_button.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"2461414f-83d7-42dc-996c-4870abfb5bdb","path":"sprites/spr_discard_button/spr_discard_button.yy",},"LayerId":{"name":"4efafea0-0273-478b-ba87-78cd1789ee3c","path":"sprites/spr_discard_button/spr_discard_button.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"2461414f-83d7-42dc-996c-4870abfb5bdb","path":"sprites/spr_discard_button/spr_discard_button.yy",},"LayerId":{"name":"a35622fc-e0a4-41f8-9d2d-846b387e412d","path":"sprites/spr_discard_button/spr_discard_button.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"2461414f-83d7-42dc-996c-4870abfb5bdb","path":"sprites/spr_discard_button/spr_discard_button.yy",},"LayerId":{"name":"8f6cedef-daff-41f5-a2a5-1b60deeff239","path":"sprites/spr_discard_button/spr_discard_button.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_discard_button","path":"sprites/spr_discard_button/spr_discard_button.yy",},"resourceVersion":"1.0","name":"2461414f-83d7-42dc-996c-4870abfb5bdb","tags":[],"resourceType":"GMSpriteFrame",},
     {"compositeImage":{"FrameId":{"name":"1c7b4f19-bf4f-4e73-a30f-d6631a549a9c","path":"sprites/spr_discard_button/spr_discard_button.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"1c7b4f19-bf4f-4e73-a30f-d6631a549a9c","path":"sprites/spr_discard_button/spr_discard_button.yy",},"LayerId":{"name":"4efafea0-0273-478b-ba87-78cd1789ee3c","path":"sprites/spr_discard_button/spr_discard_button.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"1c7b4f19-bf4f-4e73-a30f-d6631a549a9c","path":"sprites/spr_discard_button/spr_discard_button.yy",},"LayerId":{"name":"8f6cedef-daff-41f5-a2a5-1b60deeff239","path":"sprites/spr_discard_button/spr_discard_button.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"1c7b4f19-bf4f-4e73-a30f-d6631a549a9c","path":"sprites/spr_discard_button/spr_discard_button.yy",},"LayerId":{"name":"51cd41ca-5075-41c6-b4b7-f1efcd89fa57","path":"sprites/spr_discard_button/spr_discard_button.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"1c7b4f19-bf4f-4e73-a30f-d6631a549a9c","path":"sprites/spr_discard_button/spr_discard_button.yy",},"LayerId":{"name":"a35622fc-e0a4-41f8-9d2d-846b387e412d","path":"sprites/spr_discard_button/spr_discard_button.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_discard_button","path":"sprites/spr_discard_button/spr_discard_button.yy",},"resourceVersion":"1.0","name":"1c7b4f19-bf4f-4e73-a30f-d6631a549a9c","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
@@ -79,8 +75,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"8f6cedef-daff-41f5-a2a5-1b60deeff239","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "ui",
-    "path": "folders/Sprites/ui.yy",
+    "name": "hand_area",
+    "path": "folders/Sprites/ui/hand_area.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_discard_button",

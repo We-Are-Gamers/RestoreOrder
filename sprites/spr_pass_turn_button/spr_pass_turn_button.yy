@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"85844551-d622-436b-a269-95508ae4afde","path":"sprites/spr_discard_hand_button/spr_discard_hand_button.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"85844551-d622-436b-a269-95508ae4afde","path":"sprites/spr_discard_hand_button/spr_discard_hand_button.yy",},"LayerId":{"name":"303c186c-dd60-4b36-9526-3a4f032e6a6e","path":"sprites/spr_discard_hand_button/spr_discard_hand_button.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_discard_hand_button","path":"sprites/spr_discard_hand_button/spr_discard_hand_button.yy",},"resourceVersion":"1.0","name":"85844551-d622-436b-a269-95508ae4afde","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"c9e65c90-aaa4-4965-9de0-fbce285feb39","path":"sprites/spr_pass_turn_button/spr_pass_turn_button.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"c9e65c90-aaa4-4965-9de0-fbce285feb39","path":"sprites/spr_pass_turn_button/spr_pass_turn_button.yy",},"LayerId":{"name":"ea69afb7-29de-43fa-b1cf-c3c1524e716f","path":"sprites/spr_pass_turn_button/spr_pass_turn_button.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_pass_turn_button","path":"sprites/spr_pass_turn_button/spr_pass_turn_button.yy",},"resourceVersion":"1.0","name":"c9e65c90-aaa4-4965-9de0-fbce285feb39","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_discard_hand_button","path":"sprites/spr_discard_hand_button/spr_discard_hand_button.yy",},
+    "spriteId": {"name":"spr_pass_turn_button","path":"sprites/spr_pass_turn_button/spr_pass_turn_button.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"791a059b-9d91-4207-9576-5f5c46841282","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"85844551-d622-436b-a269-95508ae4afde","path":"sprites/spr_discard_hand_button/spr_discard_hand_button.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"8196b824-0923-449b-a457-676eb4b042de","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c9e65c90-aaa4-4965-9de0-fbce285feb39","path":"sprites/spr_pass_turn_button/spr_pass_turn_button.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_discard_hand_button","path":"sprites/spr_discard_hand_button/spr_discard_hand_button.yy",},
+    "parent": {"name":"spr_pass_turn_button","path":"sprites/spr_pass_turn_button/spr_pass_turn_button.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_discard_hand_button",
+    "name": "spr_pass_turn_button",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"303c186c-dd60-4b36-9526-3a4f032e6a6e","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ea69afb7-29de-43fa-b1cf-c3c1524e716f","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "hand_area",
-    "path": "folders/Sprites/ui/hand_area.yy",
+    "name": "turn_actions",
+    "path": "folders/Sprites/ui/turn_actions.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_discard_hand_button",
+  "name": "spr_pass_turn_button",
   "tags": [],
   "resourceType": "GMSprite",
 }
