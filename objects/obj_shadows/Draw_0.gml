@@ -7,11 +7,11 @@ gpu_set_fog(true, c_black, 0, 1);
 draw_clear_alpha(c_black, 0);
 
 with(obj_being) {
-	var skew_x = sprite_width;
-	var skew_y = sprite_height / 2;
+	var skew_x = sprite_width * 1.25;
+	var skew_y = sprite_height * .15;
 	draw_sprite_pos(sprite_index, image_index, 
 					x - (sprite_width/2) - skew_x, y - skew_y,
-					x + (sprite_width/2) - skew_x, y - skew_y,
+					x + (sprite_width/2) - (skew_x * .75), y - skew_y,
 					x + (sprite_width/2), y,
 					x - (sprite_width/2), y, 
 					1);
