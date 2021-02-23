@@ -1,6 +1,7 @@
 if(targetable) {
 	shader_set(sdr_modify_colors);
-	shader_set_uniform_f(global.sdr_modify_colors, 0.0, 1.0, 0.0, 1.0);
+	shader_set_uniform_f(global.sdr_modify_colors_modifier, 0.0, 1.0, 0.0, 1.0);
+	shader_set_uniform_f(global.sdr_modify_colors_position, x, y);
 }
 
 draw_self();
